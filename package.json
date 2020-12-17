@@ -4,8 +4,8 @@
   "description": "JavaScript library for utility functions.",
   "private": true,
   "scripts": {
-    "test": "jest --watch",
-    "compile": "npx webpack --config webpack.config.js"
+    "test": "jest --coverage",
+    "build": "npx webpack --config webpack.config.js"
   },
   "author": "Nick Bianco",
   "license": "ISC",

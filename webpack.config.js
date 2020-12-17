@@ -17,6 +17,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "bundle.js",
+    library: "expedite",
+    libraryTarget: "commonjs",
   },
   devServer: {
     contentBase: path.resolve(__dirname, "./dist"),
