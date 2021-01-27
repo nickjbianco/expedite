@@ -10,6 +10,10 @@
 2. Open Node REPL by running 'node'
 3. Assign the library import to a variable (see code below).
 
+```javascript
+const expedite = require("./expedite.js").default;
+```
+
 # Features
 
 - Utlize 30+ helper methods including flatten, xor, and join.
