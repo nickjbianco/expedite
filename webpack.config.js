@@ -2,6 +2,11 @@ const path = require("path");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/index.js"),
+  output: {
+    path: path.resolve(__dirname),
+    filename: "expedite.js",
+    libraryTarget: "commonjs2",
+  },
   module: {
     rules: [
       {
@@ -11,16 +16,8 @@ module.exports = {
       },
     ],
   },
+  devtool: "source-map",
   resolve: {
     extensions: ["*", ".js"],
-  },
-  output: {
-    path: path.resolve(__dirname, "./dist"),
-    filename: "bundle.js",
-    library: "expedite",
-    libraryTarget: "commonjs",
-  },
-  devServer: {
-    contentBase: path.resolve(__dirname, "./dist"),
   },
 };

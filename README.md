@@ -12,6 +12,10 @@
 
 # Sample Code
 
+1. Run 'npm run build' to build the library.
+2. Open Node REPL by running 'node'
+3. Assign the library import to a variable (see code below).
+
 ```javascript
 const flatten = (anyList) => {
   let flatList = [];
