@@ -6,15 +6,15 @@
 
 # Setup Instructions
 
+1. Run 'npm run build' to build the library.
+2. Open Node REPL by running 'node'
+3. Assign the library import to a variable (see code below).
+
 # Features
 
 - Utlize 30+ helper methods including flatten, xor, and join.
 
 # Sample Code
-
-1. Run 'npm run build' to build the library.
-2. Open Node REPL by running 'node'
-3. Assign the library import to a variable (see code below).
 
 ```javascript
 const flatten = (anyList) => {
