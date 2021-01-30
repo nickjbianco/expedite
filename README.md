@@ -18,7 +18,7 @@ const expedite = require("./expedite.js").default;
 
 - Utlize 30+ helper methods including flatten, xor, and join.
 
-- This function takes an array of any dimension and returns the one dimensional version.
+- flatten is a function takes an array of any dimension and returns the one dimensional version.
 
 ```javascript
 const flatten = (anyList) => {
@@ -36,7 +36,7 @@ const flatten = (anyList) => {
 };
 ```
 
-- The function shuffle takes in a list and returns that list in a randomly shuffled order.
+- shuffle is a function that takes in a list and returns that list in a randomly shuffled order.
 
 ```javascript
 const shuffle = (list) => {
