@@ -1,24 +1,28 @@
 # Expedite
 
-# About
+Expedite is a JavaScript utility library for common operations with arrays, objects, strings, numbers and more. It is built with ES6 and has full test coverage with Jest. Expedite has 30+ methods including flatten, xor, join, and more.
 
-- Expedite is a JavaScript utility library for common operations with arrays, objects, strings, numbers and more. It is built with ES6.
+## Setup Instructions
 
-# Setup Instructions
-
-1. Run 'npm run build' to build the library.
-2. Open Node REPL by running 'node'
-3. Assign the library import to a variable (see code below).
+1. Clone library to local computer.
+2. Run `npm run build` to build the library.
+3. Open Node REPL by running `node`.
+4. Assign the library import to a variable (see code below).
 
 ```javascript
 const expedite = require("./expedite.js").default;
 ```
 
-# Features + Sample Code
+5. Use any of libraries built-in methods.
 
-- Utlize 30+ helper methods including flatten, xor, and join.
+```javascript
+> expedite.flatten([[1, 2], [3]])
+[ 1, 2, 3 ]
+```
 
-- flatten is a function takes an array of any dimension and returns the one dimensional version.
+## Sample Code
+
+The `flatten` function takes an array of any number of dimensions and returns the elements in a one dimensional array.
 
 ```javascript
 const flatten = (anyList) => {
@@ -36,7 +40,7 @@ const flatten = (anyList) => {
 };
 ```
 
-- shuffle is a function that takes in a list and returns that list in a randomly shuffled order.
+The `shuffle` function accepts an array and returns a new array in a randomly shuffled order.
 
 ```javascript
 const shuffle = (list) => {
@@ -52,7 +56,7 @@ const shuffle = (list) => {
 };
 ```
 
-- parsedInt is a function that accepts a string and converts it into an integer in radix 10.
+The `parsedInt` function accepts a string and converts it into an integer in radix 10.
 
 ```javascript
 const parsedInt = (str) => {
